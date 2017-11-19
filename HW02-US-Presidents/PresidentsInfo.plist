@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   PresidentsInfo.plist
+   HW02-US-Presidents
+   URL: http://www.ipl.org/div/potus/
+   Created by Asdruval De Leon on 11/18/17.
+   Copyright (c) 2017 Asdruval De Leon. All rights reserved.
+ 
+-->
+<plist version="1.0">
+    <dict>
+        <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>2</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>PresidentsImages/gwashington.gif</string>
+            </dict>
+        <key>2nd President</key>
+            <dict>
+                <key>Name</key>
+                <string>John Adams</string>
+                <key>Born</key>
+                <string>October 30, 1735</string>
+                <key>Born Location</key>
+                <string>Braintree (now Quincy), Massachusetts</string>
+                <key>Died</key>
+                <string>July 4, 1826</string>
+                <key>Died Location</key>
+                <string>Braintree (now Quincy), Massachusetts</string>
+                <key>Office Term</key>
+                <string>March 4, 1797 to March 3, 1801</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>Federalist</string>
+                <key>Occupation</key>
+                <string>Lawyer</string>
+                <key>Image</key>
+                <string>PresidentsImages/jadams.gif</string>
+            </dict>
+        <key>3rd President</key>
+            <dict>
+                <key>Name</key>
+                <string>Thomas Jefferson</string>
+                <key>Born</key>
+                <string>April 13, 1743</string>
+                <key>Born Location</key>
+                <string>Shadwell, Virginia</string>
+                <key>Died</key>
+                <string>July 4, 1826</string>
+                <key>Died Location</key>
+                <string>Monticello (near Charlottesville), Virginia</string>
+                <key>Office Term</key>
+                <string>March 4, 1801 to March 3, 1809</string>
+                <key>Terms Served</key>
+                <string>2</string>
+                <key>Political Party</key>
+                <string>Democratic-Republican</string>
+                <key>Occupation</key>
+                <string>Lawyer, planter</string>
+                <key>Image</key>
+                <string>PresidentsImages/tjefferson.gif</string>
+            </dict>
+            <key>4th President</key>
+            <dict>
+                <key>Name</key>
+                <string>James Madison</string>
+                <key>Born</key>
+                <string>March 16, 1751</string>
+                <key>Born Location</key>
+                <string>Port Conway, Virginia</string>
+                <key>Died</key>
+                <string>June 28, 1836</string>
+                <key>Died Location</key>
+                <string>Montpelier, Virginia</string>
+                <key>Office Term</key>
+                <string>March 4, 1809 to March 3, 1817</string>
+                <key>Terms Served</key>
+                <string>2</string>
+                <key>Political Party</key>
+                <string>Democratic-Republican</string>
+                <key>Occupation</key>
+                <string>Lawyer</string>
+                <key>Image</key>
+                <string>PresidentsImages/jmadison.gif</string>
+            </dict>
+            <key>5th President</key>
+            <dict>
+                <key>Name</key>
+                <string>James Monroe</string>
+                <key>Born</key>
+                <string>April 28, 1758</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>July 4, 1831</string>
+                <key>Died Location</key>
+                <string>New York, New York</string>
+                <key>Office Term</key>
+                <string>March 4, 1817 to March 3, 1825</string>
+                <key>Terms Served</key>
+                <string>2</string>
+                <key>Political Party</key>
+                <string>Democratic-Republican</string>
+                <key>Occupation</key>
+                <string>Lawyer</string>
+                <key>Image</key>
+                <string>PresidentsImages/jmonroe.gif</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+            <key>1st President</key>
+            <dict>
+                <key>Name</key>
+                <string>George Washington</string>
+                <key>Born</key>
+                <string>February 22, 1732</string>
+                <key>Born Location</key>
+                <string>Westmoreland County, Virginia</string>
+                <key>Died</key>
+                <string>December 14, 1799</string>
+                <key>Died Location</key>
+                <string>Mount Vernon, Virginia</string>
+                <key>Office Term</key>
+                <string>April 30, 1789 to March 3, 1797</string>
+                <key>Terms Served</key>
+                <string>1</string>
+                <key>Political Party</key>
+                <string>No formal political party affiliation</string>
+                <key>Occupation</key>
+                <string>Planter, Soldier</string>
+                <key>Image</key>
+                <string>images_locations</string>
+            </dict>
+    </dict>
+</plist>
+
+

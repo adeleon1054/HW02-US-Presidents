@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PresidentsTableViewController.h
 //  HW02-US-Presidents
 //
 //  Created by Asdruval De Leon on 11/18/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PresidentsTableViewController : UITableViewController
 
 @end
-
