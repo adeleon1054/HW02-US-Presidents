@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F55C77881FC20BC100A7578E /* PresidentsDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C77871FC20BC100A7578E /* PresidentsDetailsViewController.m */; };
+		F55C778B1FC20CDE00A7578E /* Presidents.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C778A1FC20CDE00A7578E /* Presidents.m */; };
+		F55C778E1FC20EB600A7578E /* PresidentsTabelViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C778D1FC20EB600A7578E /* PresidentsTabelViewCell.m */; };
+		F55C77911FC20EF000A7578E /* SearchResultsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F55C77901FC20EF000A7578E /* SearchResultsTableViewController.m */; };
 		F5DF10A61FC0DF2F00132205 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5DF10A51FC0DF2F00132205 /* AppDelegate.m */; };
 		F5DF10AC1FC0DF3000132205 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5DF10AA1FC0DF3000132205 /* Main.storyboard */; };
 		F5DF10AE1FC0DF3000132205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5DF10AD1FC0DF3000132205 /* Assets.xcassets */; };
@@ -37,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F55C77861FC20BC100A7578E /* PresidentsDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresidentsDetailsViewController.h; sourceTree = "<group>"; };
+		F55C77871FC20BC100A7578E /* PresidentsDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresidentsDetailsViewController.m; sourceTree = "<group>"; };
+		F55C77891FC20CDE00A7578E /* Presidents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Presidents.h; sourceTree = "<group>"; };
+		F55C778A1FC20CDE00A7578E /* Presidents.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Presidents.m; sourceTree = "<group>"; };
+		F55C778C1FC20EB600A7578E /* PresidentsTabelViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PresidentsTabelViewCell.h; sourceTree = "<group>"; };
+		F55C778D1FC20EB600A7578E /* PresidentsTabelViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PresidentsTabelViewCell.m; sourceTree = "<group>"; };
+		F55C778F1FC20EF000A7578E /* SearchResultsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchResultsTableViewController.h; sourceTree = "<group>"; };
+		F55C77901FC20EF000A7578E /* SearchResultsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchResultsTableViewController.m; sourceTree = "<group>"; };
 		F5DF10A11FC0DF2F00132205 /* HW02-US-Presidents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HW02-US-Presidents.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5DF10A41FC0DF2F00132205 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5DF10A51FC0DF2F00132205 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,8 +120,16 @@
 				F5DF10DB1FC0E92200132205 /* PresidentsImages */,
 				F5DF10A41FC0DF2F00132205 /* AppDelegate.h */,
 				F5DF10A51FC0DF2F00132205 /* AppDelegate.m */,
+				F55C77891FC20CDE00A7578E /* Presidents.h */,
+				F55C778A1FC20CDE00A7578E /* Presidents.m */,
 				F5DF10D61FC0DFC400132205 /* PresidentsTableViewController.h */,
 				F5DF10D71FC0DFC400132205 /* PresidentsTableViewController.m */,
+				F55C778C1FC20EB600A7578E /* PresidentsTabelViewCell.h */,
+				F55C778D1FC20EB600A7578E /* PresidentsTabelViewCell.m */,
+				F55C77861FC20BC100A7578E /* PresidentsDetailsViewController.h */,
+				F55C77871FC20BC100A7578E /* PresidentsDetailsViewController.m */,
+				F55C778F1FC20EF000A7578E /* SearchResultsTableViewController.h */,
+				F55C77901FC20EF000A7578E /* SearchResultsTableViewController.m */,
 				F5DF10AA1FC0DF3000132205 /* Main.storyboard */,
 				F5DF10AD1FC0DF3000132205 /* Assets.xcassets */,
 				F5DF10AF1FC0DF3000132205 /* LaunchScreen.storyboard */,
@@ -273,8 +293,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55C778B1FC20CDE00A7578E /* Presidents.m in Sources */,
 				F5DF10D81FC0DFC400132205 /* PresidentsTableViewController.m in Sources */,
 				F5DF10B41FC0DF3000132205 /* main.m in Sources */,
+				F55C77911FC20EF000A7578E /* SearchResultsTableViewController.m in Sources */,
+				F55C77881FC20BC100A7578E /* PresidentsDetailsViewController.m in Sources */,
+				F55C778E1FC20EB600A7578E /* PresidentsTabelViewCell.m in Sources */,
 				F5DF10A61FC0DF2F00132205 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +461,7 @@
 		F5DF10CE1FC0DF3000132205 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P2245T84ZP;
@@ -451,6 +476,7 @@
 		F5DF10CF1FC0DF3000132205 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P2245T84ZP;

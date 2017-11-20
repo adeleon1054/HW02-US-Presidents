@@ -1,476 +1,1131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   PresidentsInfo.plist
-   HW02-US-Presidents
-   URL: http://www.ipl.org/div/potus/
-   Created by Asdruval De Leon on 11/18/17.
-   Copyright (c) 2017 Asdruval De Leon. All rights reserved.
- 
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>2</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>PresidentsImages/gwashington.gif</string>
-            </dict>
-        <key>2nd President</key>
-            <dict>
-                <key>Name</key>
-                <string>John Adams</string>
-                <key>Born</key>
-                <string>October 30, 1735</string>
-                <key>Born Location</key>
-                <string>Braintree (now Quincy), Massachusetts</string>
-                <key>Died</key>
-                <string>July 4, 1826</string>
-                <key>Died Location</key>
-                <string>Braintree (now Quincy), Massachusetts</string>
-                <key>Office Term</key>
-                <string>March 4, 1797 to March 3, 1801</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>Federalist</string>
-                <key>Occupation</key>
-                <string>Lawyer</string>
-                <key>Image</key>
-                <string>PresidentsImages/jadams.gif</string>
-            </dict>
-        <key>3rd President</key>
-            <dict>
-                <key>Name</key>
-                <string>Thomas Jefferson</string>
-                <key>Born</key>
-                <string>April 13, 1743</string>
-                <key>Born Location</key>
-                <string>Shadwell, Virginia</string>
-                <key>Died</key>
-                <string>July 4, 1826</string>
-                <key>Died Location</key>
-                <string>Monticello (near Charlottesville), Virginia</string>
-                <key>Office Term</key>
-                <string>March 4, 1801 to March 3, 1809</string>
-                <key>Terms Served</key>
-                <string>2</string>
-                <key>Political Party</key>
-                <string>Democratic-Republican</string>
-                <key>Occupation</key>
-                <string>Lawyer, planter</string>
-                <key>Image</key>
-                <string>PresidentsImages/tjefferson.gif</string>
-            </dict>
-            <key>4th President</key>
-            <dict>
-                <key>Name</key>
-                <string>James Madison</string>
-                <key>Born</key>
-                <string>March 16, 1751</string>
-                <key>Born Location</key>
-                <string>Port Conway, Virginia</string>
-                <key>Died</key>
-                <string>June 28, 1836</string>
-                <key>Died Location</key>
-                <string>Montpelier, Virginia</string>
-                <key>Office Term</key>
-                <string>March 4, 1809 to March 3, 1817</string>
-                <key>Terms Served</key>
-                <string>2</string>
-                <key>Political Party</key>
-                <string>Democratic-Republican</string>
-                <key>Occupation</key>
-                <string>Lawyer</string>
-                <key>Image</key>
-                <string>PresidentsImages/jmadison.gif</string>
-            </dict>
-            <key>5th President</key>
-            <dict>
-                <key>Name</key>
-                <string>James Monroe</string>
-                <key>Born</key>
-                <string>April 28, 1758</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>July 4, 1831</string>
-                <key>Died Location</key>
-                <string>New York, New York</string>
-                <key>Office Term</key>
-                <string>March 4, 1817 to March 3, 1825</string>
-                <key>Terms Served</key>
-                <string>2</string>
-                <key>Political Party</key>
-                <string>Democratic-Republican</string>
-                <key>Occupation</key>
-                <string>Lawyer</string>
-                <key>Image</key>
-                <string>PresidentsImages/jmonroe.gif</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-            <key>1st President</key>
-            <dict>
-                <key>Name</key>
-                <string>George Washington</string>
-                <key>Born</key>
-                <string>February 22, 1732</string>
-                <key>Born Location</key>
-                <string>Westmoreland County, Virginia</string>
-                <key>Died</key>
-                <string>December 14, 1799</string>
-                <key>Died Location</key>
-                <string>Mount Vernon, Virginia</string>
-                <key>Office Term</key>
-                <string>April 30, 1789 to March 3, 1797</string>
-                <key>Terms Served</key>
-                <string>1</string>
-                <key>Political Party</key>
-                <string>No formal political party affiliation</string>
-                <key>Occupation</key>
-                <string>Planter, Soldier</string>
-                <key>Image</key>
-                <string>images_locations</string>
-            </dict>
-    </dict>
+<dict>
+	<key>1st President</key>
+	<dict>
+		<key>Number</key>
+		<string>1st</string>
+		<key>Name</key>
+		<string>George Washington</string>
+		<key>Born</key>
+		<string>February 22, 1732</string>
+		<key>Born Location</key>
+		<string>Westmoreland County, Virginia</string>
+		<key>Died</key>
+		<string>December 14, 1799</string>
+		<key>Died Location</key>
+		<string>Mount Vernon, Virginia</string>
+		<key>Office Term</key>
+		<string>April 30, 1789 to March 3, 1797</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>No formal political party affiliation</string>
+		<key>Occupation</key>
+		<string>Planter, Soldier</string>
+		<key>Image</key>
+		<string>PresidentsImages/gwashington.gif</string>
+	</dict>
+	<key>2nd President</key>
+	<dict>
+    <key>Number</key>
+    <string>2nd</string>
+		<key>Name</key>
+		<string>John Adams</string>
+		<key>Born</key>
+		<string>October 30, 1735</string>
+		<key>Born Location</key>
+		<string>Braintree (now Quincy), Massachusetts</string>
+		<key>Died</key>
+		<string>July 4, 1826</string>
+		<key>Died Location</key>
+		<string>Braintree (now Quincy), Massachusetts</string>
+		<key>Office Term</key>
+		<string>March 4, 1797 to March 3, 1801</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Federalist</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/jadams.gif</string>
+	</dict>
+	<key>3rd President</key>
+	<dict>
+    <key>Number</key>
+    <string>3rd</string>
+		<key>Name</key>
+		<string>Thomas Jefferson</string>
+		<key>Born</key>
+		<string>April 13, 1743</string>
+		<key>Born Location</key>
+		<string>Shadwell, Virginia</string>
+		<key>Died</key>
+		<string>July 4, 1826</string>
+		<key>Died Location</key>
+		<string>Monticello (near Charlottesville), Virginia</string>
+		<key>Office Term</key>
+		<string>March 4, 1801 to March 3, 1809</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Democratic-Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer, planter</string>
+		<key>Image</key>
+		<string>PresidentsImages/tjefferson.gif</string>
+	</dict>
+	<key>4th President</key>
+	<dict>
+    <key>Number</key>
+    <string>4th</string>
+		<key>Name</key>
+		<string>James Madison</string>
+		<key>Born</key>
+		<string>March 16, 1751</string>
+		<key>Born Location</key>
+		<string>Port Conway, Virginia</string>
+		<key>Died</key>
+		<string>June 28, 1836</string>
+		<key>Died Location</key>
+		<string>Montpelier, Virginia</string>
+		<key>Office Term</key>
+		<string>March 4, 1809 to March 3, 1817</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Democratic-Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/jmadison.gif</string>
+	</dict>
+	<key>5th President</key>
+	<dict>
+    <key>Number</key>
+    <string>5th</string>
+		<key>Name</key>
+		<string>James Monroe</string>
+		<key>Born</key>
+		<string>April 28, 1758</string>
+		<key>Born Location</key>
+		<string>Westmoreland County, Virginia</string>
+		<key>Died</key>
+		<string>July 4, 1831</string>
+		<key>Died Location</key>
+		<string>New York, New York</string>
+		<key>Office Term</key>
+		<string>March 4, 1817 to March 3, 1825</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Democratic-Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/jmonroe.gif</string>
+	</dict>
+	<key>6th President</key>
+	<dict>
+		<key>Number</key>
+		<string>6th</string>
+		<key>Name</key>
+		<string>John Quincy Adams</string>
+		<key>Born</key>
+		<string>July 11, 1767</string>
+		<key>Born Location</key>
+		<string>Braintree (now Quincy), Massachusetts</string>
+		<key>Died</key>
+		<string>February 23, 1848</string>
+		<key>Died Location</key>
+		<string>Washington, D.C.</string>
+		<key>Office Term</key>
+		<string>March 4, 1825 to March 3, 1829</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democratic-Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/jqadams.gif</string>
+	</dict>
+	<key>7th President</key>
+	<dict>
+		<key>Number</key>
+		<string>7th</string>
+		<key>Name</key>
+		<string>Andrew Jackson</string>
+		<key>Born</key>
+		<string>March 15, 1767</string>
+		<key>Born Location</key>
+		<string>Waxhaw area, on North Carolina-South Carolina border</string>
+		<key>Died</key>
+		<string>June 8, 1845</string>
+		<key>Died Location</key>
+		<string>the Hermitage in Nashville, Tennessee</string>
+		<key>Office Term</key>
+		<string>March 4, 1829 to March 3, 1837</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer, soldier</string>
+		<key>Image</key>
+		<string>PresidentsImages/ajackson.gif</string>
+	</dict>
+	<key>8th President</key>
+	<dict>
+		<key>Number</key>
+		<string>8th</string>
+		<key>Name</key>
+		<string>Martin Van Buren</string>
+		<key>Born</key>
+		<string>December 5, 1782</string>
+		<key>Born Location</key>
+		<string>Kinderhook, New York</string>
+		<key>Died</key>
+		<string>July 24, 1862</string>
+		<key>Died Location</key>
+		<string>Kinderhook, New York</string>
+		<key>Office Term</key>
+		<string>March 4, 1837 to March 3, 1841</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/mvanburen.gif</string>
+	</dict>
+	<key>9th President</key>
+	<dict>
+		<key>Number</key>
+		<string>9th</string>
+		<key>Name</key>
+		<string>William Henry Harrison</string>
+		<key>Born</key>
+		<string>February 9, 1773</string>
+		<key>Born Location</key>
+		<string>Berkeley, Virginia</string>
+		<key>Died</key>
+		<string>April 4, 1841</string>
+		<key>Died Location</key>
+		<string>Washington, D.C.</string>
+		<key>Office Term</key>
+		<string>March 4, 1841 to April 4, 1841</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Whig</string>
+		<key>Occupation</key>
+		<string>Soldier</string>
+		<key>Image</key>
+		<string>PresidentsImages/whharrison.gif</string>
+	</dict>
+	<key>10th President</key>
+	<dict>
+		<key>Number</key>
+		<string>10th</string>
+		<key>Name</key>
+		<string>John Tylere</string>
+		<key>Born</key>
+		<string>March 29, 1790</string>
+		<key>Born Location</key>
+		<string>Greenway, Virginia</string>
+		<key>Died</key>
+		<string>January 18, 1862</string>
+		<key>Died Location</key>
+		<string>Richmond, Virginia</string>
+		<key>Office Term</key>
+		<string>April 6, 1841 to March 3, 1845</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Whig</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/jtyler.gif</string>
+	</dict>
+	<key>11th President</key>
+	<dict>
+		<key>Number</key>
+		<string>11th</string>
+		<key>Name</key>
+		<string>James Knox Polk</string>
+		<key>Born</key>
+		<string>November 2, 1795</string>
+		<key>Born Location</key>
+		<string>Mecklenburg County, North Carolina</string>
+		<key>Died</key>
+		<string>June 15, 1849</string>
+		<key>Died Location</key>
+		<string>Nashville, Tennessee</string>
+		<key>Office Term</key>
+		<string>March 4, 1845 to March 3, 1849</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/jkpolk.gif</string>
+	</dict>
+	<key>12th President</key>
+	<dict>
+		<key>Number</key>
+		<string>12th</string>
+		<key>Name</key>
+		<string>Zachary Taylor</string>
+		<key>Born</key>
+		<string>November 24, 1784</string>
+		<key>Born Location</key>
+		<string>Barboursville, Virginia</string>
+		<key>Died</key>
+		<string>July 9, 1850</string>
+		<key>Died Location</key>
+		<string>Washington, D.C.</string>
+		<key>Office Term</key>
+		<string>March 5, 1849 to July 9, 1850</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Whig</string>
+		<key>Occupation</key>
+		<string>Soldier</string>
+		<key>Image</key>
+		<string>PresidentsImages/ztaylor.gif</string>
+	</dict>
+	<key>13th President</key>
+	<dict>
+		<key>Number</key>
+		<string>13th</string>
+		<key>Name</key>
+		<string>Millard Fillmore</string>
+		<key>Born</key>
+		<string>January 7, 1800</string>
+		<key>Born Location</key>
+		<string>Locke Township (now Summerhill), New York</string>
+		<key>Died</key>
+		<string>March 8, 1874</string>
+		<key>Died Location</key>
+		<string>Buffalo, New York</string>
+		<key>Office Term</key>
+		<string>July 9, 1850 to March 3, 1853</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Whing</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/mfillmore.gif</string>
+	</dict>
+	<key>14th President</key>
+	<dict>
+		<key>Number</key>
+		<string>14th</string>
+		<key>Name</key>
+		<string>Franklin Pierce</string>
+		<key>Born</key>
+		<string>November 23, 1804</string>
+		<key>Born Location</key>
+		<string>Hillsborough (now Hillsboro), New Hampshire</string>
+		<key>Died</key>
+		<string>October 8, 1869</string>
+		<key>Died Location</key>
+		<string>Concord, New Hampshire</string>
+		<key>Office Term</key>
+		<string>March 4, 1853 to March 3, 1857</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/fpierce.gif</string>
+	</dict>
+	<key>15th President</key>
+	<dict>
+		<key>Number</key>
+		<string>15th</string>
+		<key>Name</key>
+		<string>James Buchanan</string>
+		<key>Born</key>
+		<string>April 23, 1791</string>
+		<key>Born Location</key>
+		<string>Cove Gap (near Mercersburg), Pennsylvania</string>
+		<key>Died</key>
+		<string>June 1, 1868</string>
+		<key>Died Location</key>
+		<string>Wheatland (near Lancaste), Pennsylvania</string>
+		<key>Office Term</key>
+		<string>March 4, 1857 to March 3, 1861</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/jbuchanan.gif</string>
+	</dict>
+	<key>16th President</key>
+	<dict>
+		<key>Number</key>
+		<string>16th</string>
+		<key>Name</key>
+		<string>Abraham Lincoln</string>
+		<key>Born</key>
+		<string>February 12, 1809</string>
+		<key>Born Location</key>
+		<string>Hardin (now Larue) County, Kentucky</string>
+		<key>Died</key>
+		<string>April 15, 1865</string>
+		<key>Died Location</key>
+		<string>Petersen's Boarding House in Washington, D.C.</string>
+		<key>Office Term</key>
+		<string>March 4, 1861 to April 15, 1865</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/alincoln.gif</string>
+	</dict>
+	<key>17th President</key>
+	<dict>
+		<key>Number</key>
+		<string>17th</string>
+		<key>Name</key>
+		<string>Andrew Johnson</string>
+		<key>Born</key>
+		<string>December 29, 1808</string>
+		<key>Born Location</key>
+		<string>Raleigh, North Carolina</string>
+		<key>Died</key>
+		<string>July 31, 1875</string>
+		<key>Died Location</key>
+		<string>Carter's Station, Tennessee</string>
+		<key>Office Term</key>
+		<string>April 15, 1865 to March 3, 1869</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democratic</string>
+		<key>Occupation</key>
+		<string>Tailor, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/ajohnson.gif</string>
+	</dict>
+	<key>18th President</key>
+	<dict>
+		<key>Number</key>
+		<string>18th</string>
+		<key>Name</key>
+		<string>Ulysses S. Grant</string>
+		<key>Born</key>
+		<string>April 27, 1822</string>
+		<key>Born Location</key>
+		<string>Point Pleasant, Ohio</string>
+		<key>Died</key>
+		<string>July 23, 1885</string>
+		<key>Died Location</key>
+		<string>Mount McGregor, New York</string>
+		<key>Office Term</key>
+		<string>March 4, 1869 to March 3, 1877</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Soldier</string>
+		<key>Image</key>
+		<string>PresidentsImages/usgrant.gif</string>
+	</dict>
+	<key>19th President</key>
+	<dict>
+		<key>Number</key>
+		<string>19th</string>
+		<key>Name</key>
+		<string>Rutherford Birchard Hayes</string>
+		<key>Born</key>
+		<string>October 4, 1822</string>
+		<key>Born Location</key>
+		<string>Delaware, Ohio</string>
+		<key>Died</key>
+		<string>January 17, 1893</string>
+		<key>Died Location</key>
+		<string>Fremont, Ohio</string>
+		<key>Office Term</key>
+		<string>March 4, 1877 to March 3, 1881</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/rbhayes.gif</string>
+	</dict>
+	<key>20th President</key>
+	<dict>
+		<key>Number</key>
+		<string>20th</string>
+		<key>Name</key>
+		<string>James Abram Garfield</string>
+		<key>Born</key>
+		<string>November 19, 1831</string>
+		<key>Born Location</key>
+		<string>Orange, Ohio</string>
+		<key>Died</key>
+		<string>September 19, 1881</string>
+		<key>Died Location</key>
+		<string>Elberon, New Jersey</string>
+		<key>Office Term</key>
+		<string>March 4, 1881 to September 19, 1881</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Teacher, Public officia</string>
+		<key>Image</key>
+		<string>PresidentsImages/jagarfield.gif</string>
+	</dict>
+	<key>21st President</key>
+	<dict>
+		<key>Number</key>
+		<string>21st</string>
+		<key>Name</key>
+		<string>Chester Alan Arthur</string>
+		<key>Born</key>
+		<string>October 5, 1829</string>
+		<key>Born Location</key>
+		<string>Fairfield, Vermont</string>
+		<key>Died</key>
+		<string>November 18, 1886</string>
+		<key>Died Location</key>
+		<string>New York, New York</string>
+		<key>Office Term</key>
+		<string>September 19, 1881 to March 3, 1885</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/caarthur.gif</string>
+	</dict>
+	<key>22nd President</key>
+	<dict>
+		<key>Number</key>
+		<string>22nd</string>
+		<key>Name</key>
+		<string>Grover Cleveland</string>
+		<key>Born</key>
+		<string>March 18, 1837</string>
+		<key>Born Location</key>
+		<string>Caldwell, New Jersey</string>
+		<key>Died</key>
+		<string>June 24, 1908</string>
+		<key>Died Location</key>
+		<string>Princeton, New Jersey</string>
+		<key>Office Term</key>
+		<string>March 4, 1885 to March 3, 1889</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/gcleveland.gif</string>
+	</dict>
+	<key>23rd President</key>
+	<dict>
+		<key>Number</key>
+		<string>23rd</string>
+		<key>Name</key>
+		<string>Benjamin Harrison</string>
+		<key>Born</key>
+		<string>August 20, 1833</string>
+		<key>Born Location</key>
+		<string>North Bend, Ohio</string>
+		<key>Died</key>
+		<string>March 13, 1901</string>
+		<key>Died Location</key>
+		<string>Indianapolis, Indiana</string>
+		<key>Office Term</key>
+		<string>March 4, 1889 to March 3, 1893</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/bharrison.gif</string>
+	</dict>
+	<key>24th President</key>
+	<dict>
+		<key>Number</key>
+		<string>24th</string>
+		<key>Name</key>
+		<string>Grover Cleveland</string>
+		<key>Born</key>
+		<string>March 18, 1837</string>
+		<key>Born Location</key>
+		<string>Caldwell, New Jersey</string>
+		<key>Died</key>
+		<string>June 24, 1908</string>
+		<key>Died Location</key>
+		<string>Princeton, New Jersey</string>
+		<key>Office Term</key>
+		<string>March 4, 1893 to March 3, 1897</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/gcleveland.gif</string>
+	</dict>
+	<key>25th President</key>
+	<dict>
+		<key>Number</key>
+		<string>25th</string>
+		<key>Name</key>
+		<string>William McKinley</string>
+		<key>Born</key>
+		<string>January 29, 1843</string>
+		<key>Born Location</key>
+		<string>Niles, Ohio</string>
+		<key>Died</key>
+		<string>September 14, 1901</string>
+		<key>Died Location</key>
+		<string>Buffalo, New York</string>
+		<key>Office Term</key>
+		<string>March 4, 1897 to September 14, 1901</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/wmckinley.gif</string>
+	</dict>
+	<key>26th President</key>
+	<dict>
+		<key>Number</key>
+		<string>26th</string>
+		<key>Name</key>
+		<string>Theodore Roosevelt</string>
+		<key>Born</key>
+		<string>October 27, 1858</string>
+		<key>Born Location</key>
+		<string>New York, New York</string>
+		<key>Died</key>
+		<string>January 6, 1919</string>
+		<key>Died Location</key>
+		<string>Oyster Bay, New York</string>
+		<key>Office Term</key>
+		<string>September 14, 1901 to March 3, 1909</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Author, Lawyer, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/troosevelt.gif</string>
+	</dict>
+	<key>27th President</key>
+	<dict>
+		<key>Number</key>
+		<string>27th</string>
+		<key>Name</key>
+		<string>William Howard Taft</string>
+		<key>Born</key>
+		<string>September 15, 1857</string>
+		<key>Born Location</key>
+		<string>Cincinnati, Ohio</string>
+		<key>Died</key>
+		<string>March 8, 1930</string>
+		<key>Died Location</key>
+		<string>Washington, D.C.</string>
+		<key>Office Term</key>
+		<string>March 4, 1909 to March 3, 1913</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/whtaft.gif</string>
+	</dict>
+	<key>28th President</key>
+	<dict>
+		<key>Number</key>
+		<string>28th</string>
+		<key>Name</key>
+		<string>Woodrow Wilson</string>
+		<key>Born</key>
+		<string>December 28, 1856</string>
+		<key>Born Location</key>
+		<string>Staunton, Virginia</string>
+		<key>Died</key>
+		<string>February 3, 1924</string>
+		<key>Died Location</key>
+		<string>Washington, D.C.</string>
+		<key>Office Term</key>
+		<string>March 4, 1913 to March 3, 1921</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Teacher, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/wwilson.gif</string>
+	</dict>
+	<key>29th President</key>
+	<dict>
+		<key>Number</key>
+		<string>29th</string>
+		<key>Name</key>
+		<string>Warren Gamaliel Harding</string>
+		<key>Born</key>
+		<string>November 2, 1865</string>
+		<key>Born Location</key>
+		<string>Corsica (now Blooming Grove), Ohio</string>
+		<key>Died</key>
+		<string>August 2, 1923</string>
+		<key>Died Location</key>
+		<string>San Francisco, California</string>
+		<key>Office Term</key>
+		<string>March 4, 1921 to August 2, 1923</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Editor-Publisher</string>
+		<key>Image</key>
+		<string>PresidentsImages/wgharding.gif</string>
+	</dict>
+	<key>30th President</key>
+	<dict>
+		<key>Number</key>
+		<string>30th</string>
+		<key>Name</key>
+		<string>Calvin Coolidge</string>
+		<key>Born</key>
+		<string>July 4, 1872</string>
+		<key>Born Location</key>
+		<string>Plymouth, Vermont</string>
+		<key>Died</key>
+		<string>January 5, 1933</string>
+		<key>Died Location</key>
+		<string>Northampton, Massachusetts</string>
+		<key>Office Term</key>
+		<string>August 3, 1923 to March 3, 1929</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/ccoolidge.gif</string>
+	</dict>
+	<key>31st President</key>
+	<dict>
+		<key>Number</key>
+		<string>11st</string>
+		<key>Name</key>
+		<string>Herbert Clark Hoover</string>
+		<key>Born</key>
+		<string>August 10, 1874</string>
+		<key>Born Location</key>
+		<string>West Branch, Iowa</string>
+		<key>Died</key>
+		<string>October 20, 1964</string>
+		<key>Died Location</key>
+		<string>New York, New York</string>
+		<key>Office Term</key>
+		<string>March 4, 1929 to March 3, 1933</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Engineer</string>
+		<key>Image</key>
+		<string>PresidentsImages/hchoover.gif</string>
+	</dict>
+	<key>32nd President</key>
+	<dict>
+		<key>Number</key>
+		<string>32nd</string>
+		<key>Name</key>
+		<string>Franklin Delano Roosevelt</string>
+		<key>Born</key>
+		<string>January 30, 1882</string>
+		<key>Born Location</key>
+		<string>Hyde Park, New York</string>
+		<key>Died</key>
+		<string>April 12, 1945</string>
+		<key>Died Location</key>
+		<string>Warm Springs, Georgia</string>
+		<key>Office Term</key>
+		<string>March 4, 1933 to April 12, 1945</string>
+		<key>Terms Served</key>
+		<string>4</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Public official, Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/fdroosevelt.gif</string>
+	</dict>
+	<key>33rd President</key>
+	<dict>
+		<key>Number</key>
+		<string>33rd</string>
+		<key>Name</key>
+		<string>Harry S. Truman</string>
+		<key>Born</key>
+		<string>May 8, 1884</string>
+		<key>Born Location</key>
+		<string>Lamar, Missouri</string>
+		<key>Died</key>
+		<string>December 26, 1972</string>
+		<key>Died Location</key>
+		<string>Kansas City, Missouri</string>
+		<key>Office Term</key>
+		<string>April 12, 1945 to January 20, 1953</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Farmer, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/hstruman.gif</string>
+	</dict>
+	<key>34th President</key>
+	<dict>
+		<key>Number</key>
+		<string>34th</string>
+		<key>Name</key>
+		<string>Dwight David Eisenhower</string>
+		<key>Born</key>
+		<string>October 14, 1890</string>
+		<key>Born Location</key>
+		<string>Denison, Texas</string>
+		<key>Died</key>
+		<string>March 28, 1969</string>
+		<key>Died Location</key>
+		<string>Washington, D.C.</string>
+		<key>Office Term</key>
+		<string>January 20, 1953 to January 20, 1961</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Soldier</string>
+		<key>Image</key>
+		<string>PresidentsImages/ddeisenhower.gif</string>
+	</dict>
+	<key>35th President</key>
+	<dict>
+		<key>Number</key>
+		<string>35th</string>
+		<key>Name</key>
+		<string>John Fitzgerald Kennedy</string>
+		<key>Born</key>
+		<string>May 29, 1917</string>
+		<key>Born Location</key>
+		<string>Brookline, Massachusetts</string>
+		<key>Died</key>
+		<string>November 22, 1963</string>
+		<key>Died Location</key>
+		<string>Dallas, Texas</string>
+		<key>Office Term</key>
+		<string>January 20, 1961 to November 22, 1963</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Author, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/jfkennedy.gif</string>
+	</dict>
+	<key>36th President</key>
+	<dict>
+		<key>Number</key>
+		<string>36th</string>
+		<key>Name</key>
+		<string>Lyndon Baines Johnson</string>
+		<key>Born</key>
+		<string>August 27, 1908</string>
+		<key>Born Location</key>
+		<string>Johnson City, Texas</string>
+		<key>Died</key>
+		<string>January 22, 1973</string>
+		<key>Died Location</key>
+		<string>Johnson City, Texas</string>
+		<key>Office Term</key>
+		<string>November 22, 1963 to January 20, 1969</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Teacher, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/lbjohnson.gif</string>
+	</dict>
+	<key>37th President</key>
+	<dict>
+		<key>Number</key>
+		<string>37th</string>
+		<key>Name</key>
+		<string>Richard Milhous Nixon</string>
+		<key>Born</key>
+		<string>January 9, 1913</string>
+		<key>Born Location</key>
+		<string>Yorba Linda, California</string>
+		<key>Died</key>
+		<string>April 22, 1994</string>
+		<key>Died Location</key>
+		<string>New York, New York</string>
+		<key>Office Term</key>
+		<string>January 20, 1969 to August 9, 1974</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/rmnixon.gif</string>
+	</dict>
+	<key>38th President</key>
+	<dict>
+		<key>Number</key>
+		<string>38th</string>
+		<key>Name</key>
+		<string>Gerald Rudolph Ford</string>
+		<key>Born</key>
+		<string>July 14, 1913</string>
+		<key>Born Location</key>
+		<string>Omaha, Nebraska</string>
+		<key>Died</key>
+		<string>December 26, 2006</string>
+		<key>Died Location</key>
+		<string>Rancho Mirage, California</string>
+		<key>Office Term</key>
+		<string>August 9, 1974 to January 20, 1977</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Lawyer, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/grford.gif</string>
+	</dict>
+	<key>39th President</key>
+	<dict>
+		<key>Number</key>
+		<string>39th</string>
+		<key>Name</key>
+		<string>James Earl Carter, Jr.</string>
+		<key>Born</key>
+		<string>October 1, 1924</string>
+		<key>Born Location</key>
+		<string>Plains, Georgia</string>
+		<key>Died</key>
+		<string>N/A</string>
+		<key>Died Location</key>
+		<string></string>
+		<key>Office Term</key>
+		<string>January 20, 1977 to January 20, 1981</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Farmer, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/jecarter.gif</string>
+	</dict>
+	<key>40th President</key>
+	<dict>
+		<key>Number</key>
+		<string>40th</string>
+		<key>Name</key>
+		<string>Ronald Wilson Reagan</string>
+		<key>Born</key>
+		<string>February 6, 1911</string>
+		<key>Born Location</key>
+		<string>Tampico, Illinois</string>
+		<key>Died</key>
+		<string>June 5, 2004</string>
+		<key>Died Location</key>
+		<string>Los Angeles, California</string>
+		<key>Office Term</key>
+		<string>January 20, 1981 to January 20, 1989</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Actor, Public officia</string>
+		<key>Image</key>
+		<string>PresidentsImages/rwreagan.gif</string>
+	</dict>
+	<key>41st President</key>
+	<dict>
+		<key>Number</key>
+		<string>41st</string>
+		<key>Name</key>
+		<string>George Herbert Walker Bush</string>
+		<key>Born</key>
+		<string>June 12, 1924</string>
+		<key>Born Location</key>
+		<string>Milton, Massachusetts</string>
+		<key>Died</key>
+		<string>N/A</string>
+		<key>Died Location</key>
+		<string></string>
+		<key>Office Term</key>
+		<string>January 20, 1989 to January 20, 1993</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Businessman, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/ghwbush.gif</string>
+	</dict>
+	<key>42nd President</key>
+	<dict>
+		<key>Number</key>
+		<string>42nd</string>
+		<key>Name</key>
+		<string>William Jefferson Clinton</string>
+		<key>Born</key>
+		<string>August 19, 1946</string>
+		<key>Born Location</key>
+		<string>Hope, Arkansas</string>
+		<key>Died</key>
+		<string>N/A</string>
+		<key>Died Location</key>
+		<string></string>
+		<key>Office Term</key>
+		<string>January 20, 1993 to January 20, 2001</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer, Public official</string>
+		<key>Image</key>
+		<string>PresidentsImages/wjclinton.gif</string>
+	</dict>
+	<key>43rd President</key>
+	<dict>
+		<key>Number</key>
+		<string>43rd</string>
+		<key>Name</key>
+		<string>George Walker Bush</string>
+		<key>Born</key>
+		<string>July 6, 1946</string>
+		<key>Born Location</key>
+		<string>New Haven, Connecticut</string>
+		<key>Died</key>
+		<string>N/A</string>
+		<key>Died Location</key>
+		<string></string>
+		<key>Office Term</key>
+		<string>January 20, 2001 to January 20, 2009</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Businessman</string>
+		<key>Image</key>
+		<string>PresidentsImages/gwbush.gif</string>
+	</dict>
+	<key>44th President</key>
+	<dict>
+		<key>Number</key>
+		<string>44th</string>
+		<key>Name</key>
+		<string>Barack Hussein Obama</string>
+		<key>Born</key>
+		<string>August 4, 1961</string>
+		<key>Born Location</key>
+		<string>Honolulu, Hawaii</string>
+		<key>Died</key>
+		<string>N/A</string>
+		<key>Died Location</key>
+		<string></string>
+		<key>Office Term</key>
+		<string>January 20, 2009 to January 20, 2017</string>
+		<key>Terms Served</key>
+		<string>2</string>
+		<key>Political Party</key>
+		<string>Democrat</string>
+		<key>Occupation</key>
+		<string>Lawyer</string>
+		<key>Image</key>
+		<string>PresidentsImages/bhobama.jpg</string>
+	</dict>
+	<key>45th President</key>
+	<dict>
+		<key>Number</key>
+		<string>45th</string>
+		<key>Name</key>
+		<string>Donald John Trump</string>
+		<key>Born</key>
+		<string>June 14, 1946</string>
+		<key>Born Location</key>
+		<string>Jamaica, Queens, New York</string>
+		<key>Died</key>
+		<string>N/A</string>
+		<key>Died Location</key>
+		<string></string>
+		<key>Office Term</key>
+		<string>January 20, 2017 to Present</string>
+		<key>Terms Served</key>
+		<string>1</string>
+		<key>Political Party</key>
+		<string>Republican</string>
+		<key>Occupation</key>
+		<string>Businessman</string>
+		<key>Image</key>
+		<string>PresidentsImages/djtrump.jpg</string>
+	</dict>
+</dict>
 </plist>
-
-
